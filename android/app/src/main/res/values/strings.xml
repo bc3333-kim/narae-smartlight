@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">나래 스마트조명</string>
+    <string name="title_activity_main">나래 스마트조명</string>
+    <string name="package_name">kr.co.narae.smartlight</string>
+    <string name="custom_url_scheme">kr.co.narae.smartlight</string>
+</resources>

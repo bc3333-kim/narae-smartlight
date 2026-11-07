@@ -1,0 +1,19 @@
+{
+  "name": "narae-smartlight",
+  "version": "1.0.0",
+  "private": true,
+  "description": "나래이엔지 스마트조명컨트롤러 (Capacitor + BLE)",
+  "scripts": {
+    "build": "node build.mjs",
+    "sync": "npm run build && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^8.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "esbuild": "^0.25.0"
+  }
+}
